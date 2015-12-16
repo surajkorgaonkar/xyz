@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+
+
+public class Floorpanel {
+	//Button goup,godown;
+
+	
+	
+	
+		
+	 
+	public void attachment(Elevator elevator,int p) {
+		
+		elevator.move(p);
+		
+		
+	}
+
+}

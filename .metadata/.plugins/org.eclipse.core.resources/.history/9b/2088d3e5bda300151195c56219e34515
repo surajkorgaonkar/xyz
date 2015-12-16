@@ -1,0 +1,12 @@
+
+public class Elevator_client {
+
+	public static void main(String[] args) {
+		Elevator elevator = new Elevator(3);
+		Floorpanel floorpanel = new Floorpanel();
+	    floorpanel.attachment(elevator);
+	    Elevatorpanel elevatorpanel = new Elevatorpanel();
+	    Door door= new Door();
+	}
+
+}

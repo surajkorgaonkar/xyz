@@ -1,0 +1,58 @@
+import java.util.ArrayList;
+
+public class Elevator {
+    
+    int curr_ele_position;
+	public Elevator(int no_of_floor) {
+		
+		ArrayList totalelevatorpanel = new ArrayList(no_of_floor);
+		for(int i=0;i<=no_of_floor;i++)
+		{
+		totalelevatorpanel.add(i);
+		}
+		// TODO Auto-generated c noonstructor stub
+		int randomIndex = (int)(Math.random() * totalelevatorpanel.size());
+		System.out.println("lift is at position");
+        System.out.println(totalelevatorpanel.get(randomIndex));
+        curr_ele_position = (int) totalelevatorpanel.get(randomIndex);
+		//System.out.println(totalelevatorpanel);
+	}
+ 
+	
+
+	
+	
+	
+	       Door door= new Door();
+	public void move(int current_floor) {
+		
+		if(current_floor == curr_ele_position)
+			door.status();
+		
+		else if(current_floor >  curr_ele_position)
+		{
+			System.out.println("ELEVATOR IS MOVING UP PLEASE WAIT ...");
+		   for(int q=curr_ele_position;q<=current_floor;q++)
+	             {System.out.println("floor at "+q);}
+			
+		   door.status();
+		}
+		
+		else
+		
+			{
+			System.out.println("ELEVATOR IS MOVING DOWN PLEASE WAIT...");
+			
+			
+			   for(int w=curr_ele_position;w>=current_floor;w--)
+		             {System.out.println("floor at "+w);}
+			   
+			door.status();
+			}
+		
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

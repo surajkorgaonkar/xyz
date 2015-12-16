@@ -1,0 +1,13 @@
+import java.awt.Button;
+
+public class Floorpanel {
+	Button goup,godown;
+
+	public void attachment(Elevator elevator) {
+		
+		elevator.move();
+		//System.out.println("elevator is arrivd  at");
+		
+	}
+
+}

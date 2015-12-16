@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+
+public class Floorpanel {
+	//Button goup,godown;
+
+	 ArrayList totalfloorpanel = new ArrayList(5);
+	 
+	public void attachment(Elevator elevator) {
+		
+		elevator.move();
+		//System.out.println("elevator is arrivd  at");
+		
+	}
+
+}

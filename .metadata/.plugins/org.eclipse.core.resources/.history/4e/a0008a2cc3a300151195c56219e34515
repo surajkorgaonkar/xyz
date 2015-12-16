@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+
+public class Elevator {
+    
+     
+	public Elevator(int no_of_floor) {
+		
+		ArrayList totalelevatorpanel = new ArrayList(no_of_floor);
+		for(int i=0;i<=no_of_floor;i++)
+		{
+		totalelevatorpanel.add(i);
+		}
+		// TODO Auto-generated c noonstructor stub
+		System.out.println(totalelevatorpanel);
+	}
+
+	
+	
+	
+	
+	public void move() {
+		
+		System.out.println("elevator is moving please wait...");
+		
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

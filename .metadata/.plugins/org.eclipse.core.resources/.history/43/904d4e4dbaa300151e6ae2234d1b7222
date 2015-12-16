@@ -1,0 +1,9 @@
+
+public class Elevator {
+
+	public Elevator(int no_of_floor) {
+		// TODO Auto-generated c noonstructor stub
+	}
+
+	
+}
