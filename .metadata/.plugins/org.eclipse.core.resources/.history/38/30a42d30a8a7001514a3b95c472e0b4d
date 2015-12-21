@@ -1,0 +1,33 @@
+package stack;
+
+public class stack_methods implements interface_methods {
+
+	@Override
+	public void push(int number) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int pop() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int get_top() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean isempty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	
+		
+	}
+
+

@@ -1,0 +1,9 @@
+package stack;
+
+public abstract class stack_methods implements interface_methods {
+
+	
+		
+	}
+
+

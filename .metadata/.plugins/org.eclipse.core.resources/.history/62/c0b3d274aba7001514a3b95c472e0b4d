@@ -1,0 +1,49 @@
+package stack;
+
+public class stack_methods implements interface_methods {
+    int p=0;
+	@Override
+	public void push(int number ) {
+		// TODO Auto-generated method stub
+		int[] stack_array = new int[6];
+		stack_array[p]= number;
+		System.out.println(stack_array[p]);
+		p++;
+		
+		
+		
+	}
+
+	@Override
+	public int pop() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int get_top() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean isempty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void display() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
+	
+
+	
+		
+	}
+
+

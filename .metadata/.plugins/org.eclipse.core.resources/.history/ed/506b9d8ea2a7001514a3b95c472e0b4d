@@ -1,0 +1,10 @@
+package stack;
+
+public interface methods_declaration {
+
+	void push();
+	void pop();
+	void full();
+	void isempty();
+	
+}

@@ -1,0 +1,10 @@
+package stack;
+
+public interface variable_methods {
+
+	void push();
+	void pop();
+	void full();
+	void isempty();
+	
+}

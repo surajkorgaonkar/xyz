@@ -1,0 +1,12 @@
+package stack;
+
+public class main_method extends array_stack
+         {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+        
+	}
+
+}

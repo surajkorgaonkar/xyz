@@ -1,0 +1,57 @@
+package stack;
+
+import java.util.ArrayList;
+
+public class stack_methods implements interface_methods {
+    int p=0;
+	@Override
+	public void push(int number ) {
+		// TODO Auto-generated method stub
+		ArrayList stackarray = new ArrayList(6);
+		stackarray.add(number);
+		p++;
+		
+		
+		
+	}
+
+	@Override
+	public void pop() {
+		// TODO Auto-generated method stub
+		if(p==0)
+			System.out.println("array elements is empty");
+		else
+		p--;
+		System.out.println("elements are as");
+		for(int k=0;k<p;k++)
+		System.out.println(k);	
+	}
+
+	@Override
+	public void get_top() {
+		// TODO Auto-generated method stub
+	
+	}
+
+	@Override
+	public boolean isempty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void display() {
+		// TODO Auto-generated method stub
+		System.out.println("elements are as");
+		
+	}
+
+	
+	
+	
+
+	
+		
+	}
+
+
