@@ -1,0 +1,11 @@
+package item_exam1;
+
+public class Item {
+	
+
+	public Object getPrice() {
+		// TODO Auto-generated method stub
+		return 1000;
+	}
+
+}

@@ -1,0 +1,25 @@
+package item_exam1;
+
+public class EComsite {
+	
+	
+	
+	
+	
+
+	public void chosePaymentMethod( String credit_card) {
+		
+		if("credit_card" =="credit_card"){  System.out.println("payment method= Crdit card.");}
+			
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void makePayment(Object price) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("price="+price);
+		
+	}
+ 
+}

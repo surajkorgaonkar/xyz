@@ -1,6 +1,0 @@
-import java.awt.Button;
-
-public class Floorpanel {
-	Button goup,godown;
-
-}

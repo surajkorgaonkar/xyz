@@ -1,9 +1,0 @@
-
-public class Elevator_client {
-
-	public static void main(String[] args) {
-		Elevator elevator = new Elevator();
-		Floorpanel floorpanel = new Floorpanel();
-	}
-
-}

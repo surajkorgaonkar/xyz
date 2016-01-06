@@ -1,4 +1,4 @@
-action=SILENT
+action=ASK
 configured=true
 eclipse.preferences.version=1
-rememberSendAction=PERMANENT
+rememberSendAction=NONE

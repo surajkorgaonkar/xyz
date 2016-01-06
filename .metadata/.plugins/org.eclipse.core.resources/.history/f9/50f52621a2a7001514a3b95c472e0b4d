@@ -1,6 +1,0 @@
-package stack;
-
-public class array_stack implements variable_methods {
-	
-
-}
