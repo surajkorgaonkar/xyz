@@ -1,0 +1,9 @@
+
+public class newincometax {
+
+	public void calculate(double d) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

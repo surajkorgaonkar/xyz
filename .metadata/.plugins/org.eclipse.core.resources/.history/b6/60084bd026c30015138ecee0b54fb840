@@ -1,0 +1,11 @@
+
+public class incometax implements interfacetax {
+
+	public int calculate(int i) {
+		// TODO Auto-generated method stub
+		 int pay;
+		 pay =  (i*40)/100;
+		return pay;
+	}
+
+}

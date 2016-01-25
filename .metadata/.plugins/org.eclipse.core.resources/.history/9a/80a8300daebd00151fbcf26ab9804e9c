@@ -1,0 +1,27 @@
+package car1438;
+
+import java.util.ArrayList;
+
+public class subsystem {
+	carcomponent cc;
+	ArrayList<parts> partss = new ArrayList<parts>(5);
+	int cost = 0;
+	public int getTotalCostparts()
+	{   
+		for(parts p:partss)
+			cost = cost + p.getprice();
+		
+		
+		return cost;
+		
+	}
+	
+	
+	
+	public void addpart(int p) {
+		parts.add(p);
+		// TODO Auto-generated method stub
+		
+	}
+
+}

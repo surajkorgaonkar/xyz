@@ -1,0 +1,12 @@
+
+public class incometaxadapter {
+
+	public double calculate(double d) {
+		// TODO Auto-generated method stub
+		newincometax tax1 = new newincometax();
+		tax1.calculate(d);
+		
+		return 0;
+	}
+
+}

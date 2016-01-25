@@ -1,0 +1,23 @@
+package car1438;
+
+public class main_method {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       car c = new car();
+       subsystem wheels = new subsystem();
+       parts p1=new parts();
+       p1.setPrice(50);
+       wheels.addpart(p1);
+       wheels.addpart(3000);
+       wheels.addpart(19000);
+       
+      // parts p = new parts();
+       
+       
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class newincometax {
+
+	public void calculate(double d) {
+		// TODO Auto-generated method stub
+		double newpay;
+		newpay = (i*40)/100;
+		return newpay;
+		
+	}
+
+}

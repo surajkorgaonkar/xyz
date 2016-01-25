@@ -1,0 +1,12 @@
+package car1438;
+
+public class subsystem {
+	carcomponent cc;
+
+	public void addpart(int p) {
+		
+		// TODO Auto-generated method stub
+		
+	}
+
+}

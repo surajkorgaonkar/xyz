@@ -2,21 +2,30 @@ package item_exam1;
 
 public class EComsite {
 	
+	 payment_method pm = null;
 	
-	
-	
+	  public EComsite(){}
 	
 
 	public String chosePaymentMethod( String abc) {
 		
-		if( abc =="credit_card"){  System.out.println("payment method= Crdit card.");
-		                             return abc;}
-		else if(abc =="debit_card"){  System.out.println("payment method= debit_card.");
+		if( abc =="credit_card"){  
+			      pm= new credit_card();
+			//System.out.println("payment method= Crdit card.");
+		                             return abc;
+		                             }
+		else if(abc =="debit_card"){  
+			//System.out.println("payment method= debit_card.");
+			      pm= new debit_card();
 		                              return abc;}
-		else if(abc =="net_banking"){  System.out.println("payment method= net_banking.");
+		else if(abc =="net_banking"){  
+			//System.out.println("payment method= net_banking.");
+			pm= new net_banking();
 		                                  return abc;}	
-		else if (abc =="cash_on_delivery"){  System.out.println("payment method= cash_on_delivery.");
-		                                return abc;}
+		else if (abc =="cash_on_delivery"){  
+			//System.out.println("payment method= cash_on_delivery.");
+			pm= new cash_on_delivery();
+			return abc;}
 		else {  System.out.println("invalid payment method");
 		               return abc;}
 			

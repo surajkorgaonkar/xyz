@@ -1,0 +1,17 @@
+
+public class client {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int money,disp;
+    incometax tax = new incometax();
+    disp = tax.calculate(50000);
+    
+    
+   
+    
+		
+		
+	}
+
+}
