@@ -1,0 +1,14 @@
+
+public class newclassincometax  implements interfacetax{
+	
+	
+	
+
+	@Override
+	public double calculate(double d) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+}

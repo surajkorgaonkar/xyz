@@ -1,0 +1,7 @@
+
+public interface interfacetax {
+	public double calculate(double d);
+	public double calculate1(double d);
+	
+
+}

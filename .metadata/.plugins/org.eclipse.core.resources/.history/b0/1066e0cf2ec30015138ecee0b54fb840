@@ -1,0 +1,9 @@
+
+public class newclassincometax {
+	
+	
+	public double calculate1(double amt) {
+		// TODO Auto-generated method stub
+		return (amt*20)/100;
+	}
+}

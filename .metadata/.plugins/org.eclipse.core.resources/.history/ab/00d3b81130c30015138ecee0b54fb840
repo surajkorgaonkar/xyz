@@ -1,0 +1,17 @@
+
+public class incometaxadapter  extends newclassincometax implements interfacetax{
+
+	
+	
+
+	@Override
+	public double calculate(double d) {
+		// TODO Auto-generated method stub
+        double disp1;
+		
+		disp1 = calculate(d);
+		
+		return disp1;
+	}
+
+}
