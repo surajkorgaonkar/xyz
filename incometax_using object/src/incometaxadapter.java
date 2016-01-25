@@ -1,5 +1,5 @@
 
-public class incometaxadapter {
+public class incometaxadapter implements interfacetax{
 
 	public double calculate(double d) {
 		// TODO Auto-generated method stub

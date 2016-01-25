@@ -1,0 +1,9 @@
+
+public class incometax {
+
+	public double calculate(double d) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
