@@ -1,0 +1,43 @@
+package proxy_pattern;
+
+public class tvobj implements proxyinterface {
+
+	@Override
+	public void channelup() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void channeldown() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void volup() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void voldown() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void poweron() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void poweroff() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

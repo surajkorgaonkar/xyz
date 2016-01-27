@@ -1,0 +1,52 @@
+package proxy_pattern;
+
+public class remoteobj implements proxyinterface {
+	
+	public void opertion() {
+		// TODO Auto-generated method stub
+		tvobj  newtv=  new tvobj();
+		newtv.channelup();
+		newtv.channeldown();
+		newtv.voldown();
+		newtv.volup();
+		newtv.poweron();
+		newtv.poweroff();
+	}
+
+	@Override
+	public void channelup() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void channeldown() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void volup() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void voldown() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void poweron() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void poweroff() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

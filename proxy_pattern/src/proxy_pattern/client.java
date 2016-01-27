@@ -1,0 +1,15 @@
+package proxy_pattern;
+
+public class client {
+
+	public static void main(String[] args) {
+		 
+		
+		  tvobj  tv=  new tvobj();
+		 remoteobj remote =  new remoteobj();
+		 remote.opertion();
+		
+
+	}
+
+}

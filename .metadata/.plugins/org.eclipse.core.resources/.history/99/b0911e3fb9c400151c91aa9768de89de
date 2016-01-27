@@ -1,0 +1,10 @@
+package proxy_pattern;
+
+public class remoteobj implements proxyinterface {
+
+	public void opertion() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
